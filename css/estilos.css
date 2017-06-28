@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab');
+/* 
+colores: 
+	azul oscuro: #304c53;
+	azul claro: #597f78;
+	verde claro: #badfc5;
+*/
+
+/* 
+tipos: 
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+*/
+
+body{
+	background-color: #304c53;
+	color: white;
+	margin:0; 
+	padding:0;
+}
+
+img{
+	width: 6em;
+}
+
+li{
+	font-family: 'Roboto Slab', serif;
+	text-transform: capitalize;
+	color: #ffffff;
+
+}
+
+
+.container{
+   	top:0;
+	background-color: #232323;
+	height: 10%;
+	width:100%; 
+	text-align:center;
+}
+
+.wrapper{ 
+	height:2000px; 
+	width:100%; 
+}
+
+.calendario{
+	padding: 4em; /* hay que ponerlo tmb en el pading de l*/
+	margin: 4em;
+	background-color: #232323;
+	color: white;
+}
+
+#balon{
+	margin-top: -0.7em;
+	width: 3em;
+	float: right;
+}
+
+#h1{
+	font-family: 'Roboto Slab', serif;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	display: inline;
+	height: 3em;
+	margin-top: 2em;
+}
+
+#casilla1{
+	font-family: 'Roboto Slab', serif;
+	text-transform: capitalize;
+	background-color:#597f78;
+	font-size: 16px;
+	text-align: center;
+	display: inline;
+	height: 3em;
+	padding: 4em; /* hay que ponerlo tmb en el pading de l*/
+	margin: 4em;
+}
+
+#casilla2{
+	font-family: 'Roboto Slab', serif;
+	text-transform: capitalize;
+	background-color:#badfc5;
+	font-size: 16px;
+	text-align: center;
+	display: inline;
+	height: 3em;
+	padding: 4em; /* hay que ponerlo tmb en el pading de l*/
+	margin: 4em;
+}
+
+#blank{
+	height: 3em;
+	margin: 2em;
+}
+
+#equipos{
+
+}
+
+
+
