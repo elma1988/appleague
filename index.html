@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- el css tiene que ir primero que el bootstrap para poder modificarlo-->
-<link href="./css/responsive-calendar.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
 	<link rel="icon" href="img/trabajadores.png" type="image/x-icon"/>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,7 +12,9 @@
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+	<!-- el css tiene que ir primero que el bootstrap para poder modificarlo-->
+<link href="./css/responsive-calendar.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
 	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
 <script>
@@ -62,9 +62,9 @@
 <div class="wrapper">
 
 <!-- menu equipos -->
-<div class="row" id="blank"><div class="col-xs-12"></div></div>
-	<div class="row" id="h1">
-		<div class="col-xs-12">SCHEDULE</div>
+<div class="row">
+	<div class="col-xs-12"></div>
+	<div class="col-xs-12" id="blank">SCHEDULE</div>
 	</div>
 
 
@@ -113,14 +113,7 @@
       });
     </script>
     <!-- firebase -->
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
+    
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
